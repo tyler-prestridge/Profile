@@ -1,1 +1,3 @@
-console.log('Happy developing ✨')
+const { default: Page } = require('./blog/app/page.tsx');
+
+module.exports = Page;
